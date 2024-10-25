@@ -15,7 +15,8 @@ const App = () => {
               Hi! I'm Kenneth.
             </div>
             <div className="text-sm sm:text-base">
-              A junior studying information systems at BINUS University
+              I'm in my junior year studying at BINUS University, majoring in
+              information systems with a focus on cloud computing.
             </div>
             <div className="text-sm sm:text-base">
               I am interested in{" "}
@@ -28,7 +29,7 @@ const App = () => {
                     1000,
                     "Software Engineering",
                     1000,
-                    "Web Security",
+                    "Web Vulnerabilities",
                     1000,
                     "Learning",
                     1000,
@@ -83,16 +84,16 @@ const App = () => {
         </div>
         <div className="mt-10">
           <div className="mb-3 text-lg sm:text-xl text-gruvbox-orange font-semibold">
-            Tools & tech that I'm familiar with
+            Tools & tech that I have used
           </div>
           <div className="text-xs sm:text-sm mb-6">
-            Here are the tools that I use or have used before. This list is made
-            as a reference to what I am familiar with. I am always aiming to
-            improve my skills and to add more tools.
+            Here is a list of the tools and tech that I have tinkered with. I
+            always strive to learn more and expand my skills. My level of
+            expertise with each of these varies.
           </div>
           <ToolsList />
         </div>
-        <div className="mt-40 mb-80">
+        <div className="mt-40 mb-40">
           <div className="text-lg sm:text-xl text-gruvbox-purple mb-5 font-semibold text-center md:text-left">
             Projects
           </div>
@@ -110,9 +111,13 @@ const App = () => {
                   E-Learning by BSLC
                 </div>
               </a>
+              <div className="text-center text-gruvbox-yellow font-light">
+                Contributor
+              </div>
               <div className="text-justify font-extralight text-sm">
                 A web app that lets students download learning modules for their
-                courses
+                courses. I worked as one of the backend developers in this
+                project.
               </div>
             </div>
             <div className="w-5/6 sm:h-2/5 md:w-2/5 lg:w-2/5 flex flex-col items-center gap-4">
@@ -134,8 +139,14 @@ const App = () => {
                   BINUS Information System Laboratorium Recruitment Site
                 </div>
               </a>
+              <div className="text-center text-gruvbox-yellow font-light">
+                Contributor
+              </div>
               <div className="text-justify font-extralight text-sm">
-                A website for recruiting new information systems lab members
+                A website for recruiting new information systems lab members.
+                Working on this project was one of my duties as an information
+                systems lab project member. I worked as one of the backend
+                developers.
               </div>
             </div>
           </div>
